@@ -1,0 +1,108 @@
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+.LeftContainer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 45%;
+    background-color: black;
+    margin-left: 10px;
+    margin-right: 6px;
+}
+h6{
+    color: rgb(255,187,0);
+}
+h5{
+    
+        color: rgb(255,187,0);
+        justify-content: flex-end;
+        font-size: 30px;
+        display: inline-flex;
+        font-family:cursive;
+        font-weight: 200;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    height: 55px;
+    padding: 0px;
+}
+nav button{
+    margin:1px 5px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px;
+    border: 1px solid rgb(255,187,0);
+    border-radius: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+nav button:hover{
+    color: rgb(255,187,0);
+}
+.cart-icon-css{
+    color: white;
+}
+.cart-btn{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.cart-btn img{
+    width: 40px;
+    height: fit-content;
+    background-color: black;
+
+}
+.cart-icon-css{
+    background-color:crimson;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    position: relative;
+    top: 3px;
+    right: 8px;
+    color:black;
+    /* font-weight: 300; */
+    font-size: 20px;
+    border: 1 px solid teal;
+    border-radius: 50%;
+}
+.cart-icon-css:hover{
+    /* background-color: teal; */
+    color:white;
+    border: 2 px solid rgb(255,187,0);
+    cursor: pointer;
+}
+.profile-icon{
+    width: 50px;
+    padding: 4px;
+    border: 2px solid rgb(255,187,0);
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.logout-btn{
+    /* background-color:teal; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+
+}
+.logout-btn:hover{
+    background-color:black;
+    color:darksalmon;
+
+}

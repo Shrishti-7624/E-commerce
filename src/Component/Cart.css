@@ -1,0 +1,20 @@
+.center img {
+  width: 15%;
+}
+ .your_cart{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+.empty_cart_container{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+.shopping_cart_heading{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
